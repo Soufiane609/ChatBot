@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>StressLess</title>
+</head>
+<body>
+   <div>
+        <div class="row">
+        <div class="col-1 bg-light ">
+        <img src="{{ url_for('static', filename='images/logov55.PNG') }}" width="60" height="60" class="mt-1">
+    </div>
+        <div class="col-11 bg-light ">
+        <ul class="nav mx-5 col-10">
+
+            <li class="nav-item"><a class="nav-link" href="/"><span class="h1 mx-5" style="color:#FFA07A;text-decoration: underline;">Home</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('static', filename='faq.html') }}"><span class="h1 mx-5" style="color:#A9A9A9">FAQ</span></a></li>
+            <li class="nav-item"><a class="nav-link"  href="{{ url_for('static', filename='aboutUs.html') }}"><span class="h1 mx-5" style="color:#A9A9A9">About Us</span></a></li>
+            <li class="nav-item"><a class="nav-link"  href="{{ url_for('static', filename='contact.html') }}"><span class="h1 mx-5" style="color:#A9A9A9">Contact</span></a></li>
+        </ul>
+    </div>
+    </div>
+
+    </div>
+
+    <div class="container-fluid">
+     <div class="row">
+        <div class="col-4 mt-5 ">
+    <h1 class=" mt-3 " style="color: #FFA07A; font-family: 'Playfair Display SC';font-size: 100px;">CHAT BOT</h1>
+    <p class="ml-2 mt-4 text-muted" style="font-size: 30px;">Welcome to our website designed to help students find ways to reduce stress and better balance their university life.</p>
+    <span class="chatbox__button"><button class="btn mt-4 ml-2" style="background-color: #E9967A; color: white;font-size: 35px;" >Try ChatBot</button></span>
+</div>
+     <img src="{{ url_for('static', filename='images/stressv99.jpg') }}" width="650" height="700" class="col-8 ">
+</div>
+
+</div>
+
+<div class="container">
+
+
+    </div>
+
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="{{ url_for('static', filename='images/logov55.PNG') }}" width="60" height="60" calt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    <p class="chatbox__description--header">Hi. My name is Ben. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

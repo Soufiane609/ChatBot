@@ -1,0 +1,465 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {"tag": "name",
+      "patterns": [
+     " Hey, what's your name? ",
+     " May I know your name?" ,
+      " Can I have your name please?",
+      " What should I call you? "
+
+      ],
+      "responses": [
+         "My name is Ben.",
+"I'm Ben!",
+"You can call me Ben.",
+
+ "I go by Ben, that's my name!"
+
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+   
+   
+{
+  "tag": "stressed",
+  "patterns": [
+    "I am stressed",
+    "I'm feeling so overwhelmed right now.",
+    "I can't seem to catch a break.",
+    "Everything is just getting to me today.",
+    "I'm so stressed out right now.",
+    "I feel like I'm about to snap.",
+    "I'm really struggling to cope with everything.",
+    "I'm on edge all the time.",
+    "I feel like I'm drowning in work.",
+    "I just can't seem to relax.",
+    "I'm constantly worried and anxious.",
+    "I'm feeling really tense and irritable.",
+    "I'm finding it hard to concentrate on anything.",
+    "I'm feeling really burned out and exhausted.",
+    "I'm struggling to sleep because I'm so anxious.",
+    "I'm having a hard time keeping it together.",
+    "I'm feeling really run down and overwhelmed.",
+    "I'm at my breaking point.",
+    "I feel like I'm carrying the weight of the world on my shoulders.",
+    "I'm feeling really frazzled and stressed.",
+    "I'm having a hard time keeping my emotions in check.",
+    "I'm feeling really jittery and on edge.",
+    "I'm finding it hard to cope with everything that's going on.",
+    "I'm feeling really tense and wound up.",
+    "I'm feeling really anxious and nervous.",
+    "I'm feeling really overwhelmed and overworked.",
+    "I'm feeling like I can't handle everything that's going on.",
+    "I'm feeling really stressed and worried.",
+    "I'm feeling like everything is just too much right now.",
+    "I'm feeling like I'm about to have a breakdown.",
+    "I'm feeling really emotional and drained.",
+    "I'm feeling like I'm at my breaking point.",
+    "I'm feeling really frustrated and helpless.",
+    "I'm finding it hard to cope with the pressure.",
+    "I'm feeling like I'm carrying too much on my plate.",
+    "I'm feeling like I'm drowning in stress.",
+    "I'm feeling really burnt out and exhausted.",
+    "I'm feeling like I can't keep up with everything.",
+    "I'm feeling really irritable and moody.",
+    "I'm feeling like I'm constantly on edge.",
+    "I'm feeling really overwhelmed and swamped.",
+    "I'm feeling like I'm always behind on everything.",
+    "I'm feeling really anxious and worried all the time.",
+    "I'm feeling like I'm at my wit's end.",
+    "I'm feeling like I'm about to crack under the pressure.",
+    "I'm feeling like I'm suffocating under the weight of everything.",
+    "I'm feeling really stressed and exhausted.",
+    "I'm feeling like I'm drowning in responsibilities.",
+    "I'm feeling really tense and overwhelmed.",
+    "I'm feeling like I can't take it anymore.",
+    "I'm feeling really on edge and anxious all the time.",
+    "Overwhelmed",
+    "Anxious",
+    "Frazzled",
+    "Exhausted",
+    "Jittery",
+    "Drained",
+    "Irritable",
+    "Moody",
+    "Swamped",
+    "Burnt Out",
+    "Pressured",
+    "Nervous",
+    "Helpless",
+    "Tense",
+    "Stretched",
+    "Panicked",
+    "Stifled",
+    "Stressed Out",
+    "On Edge",
+    "At Wit's End",
+    "Feeling overwhelmed",
+    "Under pressure",
+    "Anxiety attack",
+    "Emotionally drained",
+    "Mentally exhausted",
+    "Physically tired",
+    "Mind racing",
+    "Heart pounding",
+    "Breathless panic",
+    "Nervous wreck",
+    "Stress headache",
+    "Frustration boiling",
+    "Tension building",
+    "Overworked and tired",
+    "Fatigue setting in",
+    "Mood swings",
+    "Racing thoughts",
+    "Worn out",
+    "Agitated nerves",
+    "Tired and stressed",
+    "Can you suggest some exercises to help me avoid stress?"
+
+  ],
+"responses": [
+  "I suggest to you to do a deep breathing exercise for 10 minutes, here is a youtube video shows you how to do breathing exercices: https://youtu.be/lPJAtHWq08k.",
+  "I suggest to you to do yoga for 30 minutes, here is a youtube video shows you how to do yoga: https://youtu.be/X56JmIJAjQM.",
+  "I suggest to you to do a relaxing walk in nature for 45 minutes.",
+  "I suggest to you to do a progressive muscle relaxation exercise for 15 minutes, here is a youtube video shows you how to do muscle relaxation exercise: https://youtu.be/ClqPtWzozXs.",
+  "I suggest to you to do a journaling exercise for 20 minutes, here is a youtube video shows you how to do journaling exercise https://youtu.be/zeqCajZHC1U.",
+  "I suggest to you to do a self-massage for 15 minutes, here is a youtube video shows you how to do self-massage: https://youtu.be/FlBXHA7pST0.",
+  "I suggest to you to do a reading or listening to an audiobook for 30 minutes.",
+  "I suggest to you to do a socializing activity with friends or family for 1 hour.",
+  "I suggest to you to do a movie watching session, here are some movies you can watch: Bridesmaids (2011), The Grand Budapest Hotel (2014), Superbad (2007), Borat (2006), The Hangover (2009), This Is the End (2013), Mean Girls (2004), Step Brothers (2008), 21 Jump Street (2012), Tropic Thunder (2008).",
+  "I suggest to you to do a stretching for 15 minutes, here is a youtube video shows you how to do stretching: https://youtu.be/g_tea8ZNk5A.",
+  "I suggest to you to do a listening to calming music for 30 minutes, here is some calming music you can listen to: Weightless - Marconi Union, Clair de Lune - Claude Debussy, Gymnopedie No. 1 - Erik Satie, Adagio for Strings - Samuel Barber, Spiegel im Spiegel - Arvo Pärt, The Four Seasons: Winter - Antonio Vivaldi, Moon River - Henry Mancini, Morning Mood - Edvard Grieg, Canon in D - Johann Pachelbel, Hallelujah - Jeff Buckley."
+]
+},
+    {
+      "tag": "exam-stressed",
+      "patterns": [
+        "To be honest, I'm really stressed out about my upcoming exam.",
+        "I'm not doing so well, I haven't had enough time to prepare for my exam.",
+        "I'm feeling really overwhelmed and anxious about my exam.",
+        "I'm not doing great, I haven't been able to focus on anything but my upcoming exam.",
+        "I'm feeling really unprepared for my exam and it's been affecting my mood.",
+        "I'm not feeling very confident about my upcoming exam and it's been weighing on me.",
+        "I'm really worried about my upcoming exam and it's been taking a toll on my mental health.",
+        "I'm not doing too well, I've been really busy with other things and haven't had much time to prepare for my exam.",
+        "I'm feeling really stressed and underprepared for my upcoming exam.",
+        "I'm feeling really nervous about my exam and it's been affecting my ability to concentrate on anything else.",
+        "I'm not doing great, I've been procrastinating and haven't started studying for my exam yet.",
+        "I'm feeling really overwhelmed by my upcoming exam and it's been making it hard to focus on anything else.",
+        "I'm not doing well, I've been struggling to balance studying for my exam with everything else going on in my life.",
+        "I'm feeling really anxious and unprepared for my upcoming exam and it's been affecting my sleep and appetite.",
+        "I'm not doing so good, I feel like I'm falling behind on my studies for my upcoming exam.",
+        "I'm feeling really stressed and uncertain about my upcoming exam and it's been affecting my overall well-being.",
+        "I'm not doing too well, I feel like I'm not ready for my exam and it's been causing me a lot of anxiety.",
+        "I'm feeling really overwhelmed and underprepared for my upcoming exam and it's been making me feel really down.",
+        "I'm not doing great, I feel like I've been cramming for my upcoming exam and it's been affecting my ability to retain information.",
+        "I'm feeling really worried and unprepared for my upcoming exam and it's been making it hard for me to enjoy anything else."
+      ],
+      "responses": [
+        "I'm sorry to hear that you're feeling unprepared for your exam. Here are some tips that may help you get ready: Make a study schedule and stick to it. Find a quiet and comfortable place to study. Review your notes regularly to reinforce what you've learned.",
+        "I'm sorry to hear that you're feeling unprepared for your exam. Here are some tips that may help you get ready: Use flashcards to help you memorize important information. Take practice exams to familiarize yourself with the format and types of questions. Break up your study sessions into smaller, more manageable chunks.",
+        "I'm sorry to hear that you're feeling unprepared for your exam. Here are some tips that may help you get ready: Stay hydrated and take breaks as needed to avoid burnout. Get plenty of rest the night before your exam. Eat a healthy, balanced diet to fuel your brain and body.",
+        "I'm sorry to hear that you're feeling unprepared for your exam. Here are some tips that may help you get ready: Avoid distractions such as social media or TV while studying. Ask your teacher or classmates for help if you're struggling with a concept. Study with a friend or study group to keep each other accountable.",
+        "I'm sorry to hear that you're feeling unprepared for your exam. Here are some tips that may help you get ready: Use mnemonic devices to help you remember information. Practice active recall by testing yourself on the material. Focus on understanding concepts rather than just memorizing facts.",
+        "I'm sorry to hear that you're feeling unprepared for your exam. Here are some tips that may help you get ready: Use online resources such as Khan Academy or Quizlet to supplement your studying. Make sure to review any past exams or quizzes to see where you need improvement. Stay positive and keep a growth mindset – remember that you can improve with effort and practice."
+      ]
+    },
+         {
+         "tag": "presentation-stressed",
+      "patterns": [
+        "I'm feeling really anxious about my presentation next week.",
+        "I'm not sure if I'll have enough time to prepare for my presentation in the next couple of days.",
+        "I feel like I haven't had enough time to prepare for my presentation.",
+        "I'm worried that I won't be able to convey my message effectively during my presentation.",
+        "I'm afraid I'll freeze up and forget what I'm supposed to say during my presentation.",
+        "I'm feeling overwhelmed by the amount of work I still need to do before my presentation.",
+        "I'm struggling to come up with good ideas for my presentation.",
+        "I'm having a hard time organizing my thoughts and putting my presentation together.",
+        "I don't know how to make my presentation engaging for the audience.",
+        "I'm not feeling very confident about my presentation skills.",
+        "I'm worried that I won't be able to answer questions from the audience during my presentation.",
+        "I'm not very comfortable with public speaking.",
+        "I'm concerned that my classmates won't find my topic interesting.",
+        "I haven't been able to get any feedback on my presentation so far.",
+        "I'm struggling to find good sources to support my presentation.",
+        "I'm not sure if I'm fully understanding the material for my presentation.",
+        "I'm feeling a lot of pressure to do well on my presentation.",
+        "I'm worried that my presentation won't meet the requirements set by the teacher.",
+        "I'm concerned that I won't be able to finish my presentation on time.",
+        "I'm having trouble balancing the other assignments and projects I have with preparing for my presentation.",
+        "I feel like I haven't practiced my presentation enough.",
+        "I'm not sure how to incorporate visuals into my presentation.",
+        "I'm not sure if I'm using the right tone or language for my presentation.",
+        "I'm worried that my presentation won't be professional enough.",
+        "I'm not sure if my presentation will be clear and easy to understand.",
+        "I haven't had a chance to rehearse my presentation in front of anyone yet.",
+        "I'm feeling a lot of self-doubt about my presentation.",
+        "I'm worried that my presentation won't be as good as my classmates' presentations.",
+        "I'm feeling really unprepared for my presentation next week.",
+        "I'm worried that I won't be able to engage the audience during my presentation.",
+        "I'm struggling to come up with a strong conclusion for my presentation."
+      ],
+      "responses": [
+        "I'm sorry to hear that you're feeling unprepared for your presentation. Here are some tips that may help you get ready:- Start by creating an outline of your presentation. This will help you stay organized and focused on your main points.- Practice your delivery in front of a mirror or with a friend. This will help you feel more confident and comfortable with your material.- Use visual aids such as slides or handouts to help illustrate your points and keep your audience engaged.",
+        "I'm sorry to hear that you're feeling unprepared for your presentation. Here are some tips that may help you get ready:- Research your topic thoroughly so that you can speak confidently and knowledgeably about it.- Rehearse your presentation multiple times to ensure that you are comfortable with the material.- Practice speaking slowly and clearly to help your audience understand your points.",
+        "I'm sorry to hear that you're feeling unprepared for your presentation. Here are some tips that may help you get ready:- Time yourself as you practice your presentation to ensure that you can deliver it within the allotted time frame.- Anticipate questions that your audience may have and prepare thoughtful answers ahead of time.- Dress appropriately and professionally to help you feel confident and ready to present.",
+        "I'm sorry to hear that you're feeling unprepared for your presentation. Here are some tips that may help you get ready:- Focus on your body language to help you appear confident and engaged.- Use stories or personal anecdotes to help illustrate your points and make your presentation more interesting.- Take breaks as needed during your rehearsal to avoid feeling overwhelmed or stressed.",
+        "I'm sorry to hear that you're feeling unprepared for your presentation. Here are some tips that may help you get ready:- Make sure you are familiar with any technology or equipment you will be using during your presentation.- Practice breathing exercises or meditation to help you stay calm and focused before your presentation.- Consider recording yourself during a practice run so that you can review and improve your presentation style."
+      ]
+    },
+
+
+
+
+    { "tag" : "bonjour",
+    "patterns": [
+    "bonjour",
+    "salut",
+    "coucou",
+    
+    "hey",
+    "yo",
+    "bonsoir",
+    "bonne journee",
+    "bonne soiree",
+    "bon matin",
+    "bienvenue",
+    "salutations",
+    "bonjour à tous",
+    "salut tout le monde",
+    "salut les gars",
+    "bonjour mon ami",
+    "he toi",
+    "salut l'ami",
+    "coucou toi"
+    ],
+    "responses": [
+    "Bonjour ! Comment puis-je vous aider aujourd'hui ?",
+    "Salut ! Que puis-je faire pour vous ?",
+    
+    
+    
+    "Hey ! Comment puis-je vous aider ?",
+    
+    "Bonsoir ! Comment puis-je vous aider ce soir ?",
+    "Bonne journee a vous aussi ! Comment puis-je vous aider ?",
+    "Bonne soiree a vous aussi ! Comment puis-je vous aider ?",
+    "Bonjour ! Comment puis-je vous aider ce matin ?",
+    "Bienvenue ! Comment puis-je vous assister ?",
+    "Salutations ! Comment puis-je vous aider aujourd'hui ?",
+    "Bonjour a tous ! Comment puis-je vous aider ?",
+    
+    "Salut les gars ! Comment puis-je vous aider ?",
+    "Bonjour mon ami ! Comment puis-je vous assister ?",
+    "He toi ! Que puis-je faire pour vous ?",
+    
+    "Coucou toi ! Comment puis-je vous aider ?"
+    ]
+    },
+    {   "tag": "nom",
+      "patterns": [
+        " H, comment tu t'appelles? ",
+   " Puis-je connaitre ton nom?" ,
+         " Puis-je avoir votre nom s'il vous plait?",
+         " Comment dois-je vous appeler? "
+   
+         ],
+         "responses": [
+            "Je m'appelle Ben.",
+   "Je suis Ben !",
+   "Vous pouvez m'appeler Ben.",
+
+    "Je m'appelle Ben, c'est mon nom !"]
+    },
+
+    {"tag": "stresse-fr",
+      "patterns": [
+     "Je me sens stressee.",
+     "Je suis sous pression.",
+     "Je suis angoissee.",
+     "Je suis nerveuse.",
+     "Je suis tendue.",
+     "Je suis preoccupee.",
+     "Je suis agitee.",
+     "Je suis anxieuse.",
+     "Je suis soucieuse.",
+     "Je suis inquiète.",
+     "Je suis mal à l'aise.",
+     "Je suis oppressee.",
+     "Je suis en stress.",
+     "Je suis en proie au stress.",
+     "Je suis crispee.",
+     "Je suis sur les nerfs.",
+     "Je suis inquiète.",
+     "Je suis en tension.",
+     "Je suis stressee au maximum.",
+     "Je suis submergee par le stress."
+    ],
+    "responses": [
+      "Je vous propose de faire un exercice de respiration profonde pendant 10 minutes, voici une vido youtube vous montre comment faire des exercices de respiration : https://youtu.be/lPJAtHWq08k.",
+  "Je vous propose de faire du yoga pendant 30 minutes, voici une vido youtube vous montre comment faire du yoga : https://youtu.be/X56JmIJAjQM.",
+  "Je vous propose de faire une promenade relaxante dans la nature pendant 45 minutes.",
+  "Je vous propose de faire un exercice de relaxation musculaire progressive pendant 15 minutes, voici une vido youtube vous montre comment faire un exercice de relaxation musculaire : https://youtu.be/ClqPtWzozXs.",
+  "Je vous propose de faire un exercice de journalisation pendant 20 minutes, voici une vido youtube vous montre comment faire un exercice de journalisation https://youtu.be/zeqCajZHC1U.",
+  "Je vous propose de faire un auto-massage pendant 15 minutes, voici une vido youtube vous montre comment faire un auto-massage : https://youtu.be/FlBXHA7pST0.",
+  "Je vous propose de faire une lecture ou d'ecouter un livre audio pendant 30 minutes.",
+  "Je vous propose de faire une activit socialisante entre amis ou en famille pendant 1h.",
+  "Je vous propose de faire une sance de visionnage de films, voici quelques films que vous pouvez regarder : Bridesmaids (2011), The Grand Budapest Hotel (2014), Superbad (2007), Borat (2006), The Hangover (2009), This C'est la fin (2013), Mean Girls (2004), Step Brothers (2008), 21 Jump Street (2012), Tropic Thunder (2008).",
+  "Je vous propose de faire un tirement pendant 15 minutes, voici une vido youtube vous montre comment faire des tirements : https://youtu.be/g_tea8ZNk5A.",
+  "Je vous propose de faire une coute de musique apaisante pendant 30 minutes, voici quelques musiques apaisantes que vous pouvez couter :Weightless - Marconi Union, Clair de Lune - Claude Debussy, Gymnopedie No. 1 - Erik Satie, Adagio for Strings - Samuel Barber, Spiegel im Spiegel - Arvo Pärt, The Four Seasons: Winter - Antonio Vivaldi, Moon River - Henry Mancini, Morning Mood - Edvard Grieg, Canon in D - Johann Pachelbel, Hallelujah - Jeff Buckley."
+]
+    },
+    {
+      "tag": "merci",
+            "patterns": [
+       "Merci !",
+       "Merci beaucoup !",
+       "Je vous remercie !",
+       "Je vous remercie infiniment !",
+      "Un grand merci !",
+       "Merci mille fois !",
+       "C'est très gentil, merci !"
+      ],
+      "responses":[
+       "De rien !",
+       "Il n'y a pas de quoi !",
+       "Avec plaisir !",
+       "C'est normal !",
+       "Je vous en prie !",
+       "Tout le plaisir est pour moi !",
+       "C'est un plaisir de vous aider !"
+      ]
+      },
+      {
+        "tag": "auRevoir",
+              "patterns": [
+         "Au revoir !",
+        "À bientôt !",
+         "À la prochaine !",
+         "À plus tard !",
+         "Salut !",
+         "On se voit plus tard !",
+         "À tout à l'heure !"
+        ],
+        "responses":[
+         "Au revoir !",
+         "A bientot !",
+         "Passez une bonne journee !",
+         "A la prochaine fois !",
+        "Prenez soin de vous !",
+         "Bonne continuation !",
+         "A demain !"
+        ]
+        },
+        {   "tag" : "exam-stressed-fr",
+    "patterns" : [ "Je suis tellement stresse à propos des examens qui commencent dans une semaine",
+    "Je n'ai pas etudie autant que je le voulais pour ces examens",
+    "Je ne me sens pas du tout prepare pour les examens",
+    "Je suis tellement en retard dans mes revisions pour les examens",
+    "Je n'ai pas confiance en moi pour ces examens",
+    "Je ne sais pas par où commencer à reviser pour les examens",
+    "Je me sens depasse par la quantite de travail qu'il faut reviser pour les examens",
+    "Je ne comprends pas une partie du cours qui pourrait tomber dans les examens",
+    "Je n'ai pas reussi à organiser mon temps pour reviser efficacement",
+    "Je suis facilement distrait quand j'etudie pour les examens",
+    "Je n'ai pas les bonnes ressources pour etudier pour les examens",
+    "Je suis inquiet que les examens soient plus difficiles que je ne le pense",
+    "Je n'ai pas eu assez de sommeil pour être bien prepare pour les examens",
+    "Je ne me sens pas à l'aise en prenant des examens",
+    "Je n'ai pas de strategie pour prendre des examens",
+    "Je suis inquiet à propos du temps imparti pour les examens",
+    "Je suis inquiet à propos des questions pièges dans les examens",
+    "Je ne me sens pas prêt pour les examens oraux",
+    "Je ne me sens pas prêt pour les examens ecrits",
+    "Je n'ai pas etudie tous les sujets qui pourraient tomber dans les examens"
+        ],         
+        "responses": [   "Je suis desole d'apprendre que vous ne vous sentez pas prêt pour votre examen. Voici quelques astuces qui pourraient vous aider : planifiez un horaire d'etude regulier, organisez vos notes et revisez les sujets qui vous posent le plus de difficultes.",
+        "Je suis desole d'apprendre que vous ne vous sentez pas pret pour votre examen. Voici quelques astuces qui pourraient vous aider : limitez votre consommation de distractions, telles que les reseaux sociaux et les jeux video, et utilisez ce temps pour etudier.",
+        "Je suis desole d'apprendre que vous ne vous sentez pas pret pour votre examen. Voici quelques astuces qui pourraient vous aider : trouvez un endroit calme et confortable pour etudier, evitez les distractions et concentrez-vous sur votre materiel d'etude.",
+        "Je suis desole d'apprendre que vous ne vous sentez pas pret pour votre examen. Voici quelques astuces qui pourraient vous aider : pratiquez des techniques de relaxation, comme la respiration profonde et la meditation, pour reduire le stress et l'anxiete avant l'examen.",
+            "Je suis desole d'apprendre que vous ne vous sentez pas pret pour votre examen. Voici quelques astuces qui pourraient vous aider : travaillez en groupe avec des camarades de classe pour partager des idees et des methodes d'etude, et vous motiver mutuellement."
+        
+            
+          ]
+    },
+      {  "tag" : "presentation-stressed-fr",
+            "patterns": ["Je suis vraiment anxieux à propos de ma presentation la semaine prochaine.",
+            "Je ne suis pas sûr d'avoir suffisamment de temps pour me preparer pour ma presentation dans les prochains jours.",
+            "J'ai l'impression de ne pas avoir eu assez de temps pour me preparer pour ma presentation.",
+            "Je crains de ne pas être en mesure de transmettre mon message efficacement pendant ma presentation.",
+            "J'ai peur de me figer et d'oublier ce que je suis cense dire pendant ma presentation.",
+            "Je suis submerge par la quantite de travail que je dois encore faire avant ma presentation.",
+            "J'ai du mal à trouver de bonnes idees pour ma presentation.",
+            "J'ai du mal à organiser mes pensees et à preparer ma presentation.",
+            "Je ne sais pas comment rendre ma presentation engageante pour le public.",
+            "Je ne me sens pas très confiant dans mes competences en presentation.",
+            "Je crains de ne pas être en mesure de repondre aux questions du public pendant ma presentation.",
+            "Je ne suis pas très à l'aise avec la prise de parole en public.",
+            "Je crains que mes camarades de classe ne trouvent pas mon sujet interessant.",
+            "Je n'ai pas eu la possibilite d'obtenir des commentaires sur ma presentation jusqu'à present.",
+            "J'ai du mal à trouver de bonnes sources pour etayer ma presentation.",
+            "Je ne suis pas sûr de comprendre pleinement le sujet de ma presentation.",
+            "Je ressens beaucoup de pression pour bien faire ma presentation.",
+            "Je crains que ma presentation ne reponde pas aux exigences fixees par le professeur.",
+            "Je crains de ne pas être en mesure de terminer ma presentation à temps.",
+            "J'ai du mal à equilibrer les autres devoirs et projets que j'ai avec la preparation de ma presentation.",
+            "J'ai l'impression de ne pas avoir suffisamment pratique ma presentation.",
+            "Je ne suis pas sûr de savoir comment incorporer des visuels dans ma presentation.",
+            "Je ne suis pas sûr d'utiliser le bon ton ou le bon langage pour ma presentation.",
+            "Je crains que ma presentation ne soit pas assez professionnelle.",
+            "Je ne suis pas sûr que ma presentation soit claire et facile à comprendre.",
+            "Je n'ai pas eu la possibilite de repeter ma presentation devant qui que ce soit jusqu'à present.",
+            "Je ressens beaucoup de doute de moi à propos de ma presentation.",
+            "Je crains que ma presentation ne soit pas aussi bonne que celles de mes camarades de classe.",
+            "Je me sens vraiment mal prepare pour ma presentation la semaine prochaine.",
+            "J'ai peur de ne pas pouvoir engager le public pendant ma presentation.",
+            "J'ai du mal à trouver une conclusion solide pour ma presentation."
+            ],
+            "responses" : [ 
+            
+                    "Je suis desole d'apprendre que vous vous sentez mal prepare pour votre presentation. Voici quelques astuces qui pourraient vous aider à vous preparer :  Commencez par creer un plan de votre presentation. Cela vous aidera à rester organise et concentre sur vos points principaux.  Entraînez-vous à parler devant un miroir ou avec un ami. Cela vous aidera à vous sentir plus confiant et à l'aise avec votre materiel.  Utilisez des supports visuels tels que des diapositives ou des documents imprimes pour illustrer vos points et maintenir l'attention de votre public.",
+                    "Je suis desole d'apprendre que vous vous sentez mal prepare pour votre presentation. Voici quelques astuces qui pourraient vous aider à vous preparer :  Recherchez votre sujet en profondeur pour pouvoir parler avec confiance et connaissance de cause.  Repetez votre presentation plusieurs fois pour vous assurer que vous êtes à l'aise avec le materiel.  Parlez lentement et clairement pour aider votre public à comprendre vos points.",
+                    "Je suis desole d'apprendre que vous vous sentez mal prepare pour votre presentation. Voici quelques astuces qui pourraient vous aider à vous preparer :  Chronometrez-vous lorsque vous pratiquez votre presentation pour vous assurer de pouvoir la donner dans le delai imparti.  Anticipez les questions que votre public pourrait avoir et preparez des reponses reflechies à l'avance.  Habillez-vous de manière appropriee et professionnelle pour vous sentir confiant et prêt à presenter.",
+                    "Je suis desole d'apprendre que vous vous sentez mal prepare pour votre presentation. Voici quelques astuces qui pourraient vous aider à vous preparer :  Concentrez-vous sur votre langage corporel pour donner l'impression d'être confiant et engage.  Utilisez des histoires ou des anecdotes personnelles pour illustrer vos points et rendre votre presentation plus interessante.  Prenez des pauses si necessaire pendant votre repetition pour eviter de vous sentir depasse ou stresse.",
+                    "Je suis desole d'apprendre que vous vous sentez mal prepare pour votre presentation. Voici quelques astuces qui pourraient vous aider à vous preparer :  Assurez-vous de bien connaître la technologie ou l'equipement que vous utiliserez pendant votre presentation.  Pratiquez des exercices de respiration ou de meditation pour rester calme et concentre avant votre presentation.  Envisagez d'enregistrer une repetition pour pouvoir la revoir et ameliorer votre style de presentation."
+                    ]
+                    
+                    
+                    
+                  
+                 
+            
+            
+        }
+  ]
+}
